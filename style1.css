@@ -1,0 +1,26 @@
+*{
+margin: 0;
+padding: 0;
+/*box-sizing: border-box;*/
+}
+
+
+.back-video{
+position:absolute;
+right: 0;
+bottom: 0;
+z-index: -1;
+background-color: black;
+}
+@media(min-aspect-ratio:16/9){
+.back-video{
+    width: 100%;
+    height: 100%;
+}
+}
+@media(min-aspect-ratio:16/9){
+    .back-video{
+        width: a100%;
+        height: 100%;
+    }
+}
